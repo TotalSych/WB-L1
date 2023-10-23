@@ -1,0 +1,25 @@
+.map {
+  width: 600px;
+  height: 400px;
+}
+
+#address-input {
+  margin-top: 4px;
+  width: 400px;
+}
+
+#address-list {
+  display: none;
+  list-style: none;
+  background-color: rgb(255, 249, 241);
+  margin: 0;
+  padding: 0;
+  width: 400px;
+
+  border-radius: 8px;
+}
+.address-option {
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.151);
+}

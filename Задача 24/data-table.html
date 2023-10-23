@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="data-table.css" />
+    <title>#24 Data table</title>
+  </head>
+  <body style="width: 100%">
+    <table id="data-table" class="table">
+      <thead>
+        <tr class="table-headers">
+          <th class="table-header" onclick="sortTable(0)">First Name</th>
+
+          <th class="table-header" onclick="sortTable(1)">Last Name</th>
+
+          <th class="table-header" onclick="sortTable(2)">Phone</th>
+
+          <th class="table-header" onclick="sortTable(3)">Address</th>
+
+          <th class="table-header" onclick="sortTable(4)">City</th>
+
+          <th class="table-header" onclick="sortTable(5)">State</th>
+
+          <th class="table-header" onclick="sortTable(6)">Zip</th>
+        </tr>
+      </thead>
+      <tbody class="table-body"></tbody>
+    </table>
+    <div class="pagination" id="pagination"></div>
+  </body>
+  <script src="dataTable.js"></script>
+</html>
